@@ -1,0 +1,56 @@
+export const teams = [
+  { code: 'csk', name: 'Chennai Super Kings' },
+  { code: 'mi', name: 'Mumbai Indians' },
+  { code: 'rcb', name: 'Royal Challengers Bengaluru' },
+  { code: 'kkr', name: 'Kolkata Knight Riders' },
+  { code: 'srh', name: 'Sunrisers Hyderabad' },
+  { code: 'rr', name: 'Rajasthan Royals' },
+]
+
+export const matches = [
+  {
+    id: 'match-01',
+    number: '01',
+    shortName: 'CSK vs MI',
+    teams: [teams[0], teams[1]],
+    date: 'April 04, 2026 · 7:30 PM',
+    venue: 'M. A. Chidambaram Stadium, Chennai',
+    prices: { general: 800, premium: 1800, vip: 4500 },
+  },
+  {
+    id: 'match-02',
+    number: '02',
+    shortName: 'RCB vs KKR',
+    teams: [teams[2], teams[3]],
+    date: 'April 05, 2026 · 7:30 PM',
+    venue: 'M. Chinnaswamy Stadium, Bengaluru',
+    prices: { general: 900, premium: 2000, vip: 5000 },
+  },
+  {
+    id: 'match-03',
+    number: '03',
+    shortName: 'SRH vs RR',
+    teams: [teams[4], teams[5]],
+    date: 'April 07, 2026 · 7:30 PM',
+    venue: 'Rajiv Gandhi International Cricket Stadium, Hyderabad',
+    prices: { general: 750, premium: 1700, vip: 4200 },
+  },
+  {
+    id: 'match-04',
+    number: '04',
+    shortName: 'CSK vs RR',
+    teams: [teams[0], teams[5]],
+    date: 'April 09, 2026 · 7:30 PM',
+    venue: 'M. A. Chidambaram Stadium, Chennai',
+    prices: { general: 800, premium: 1800, vip: 4500 },
+  },
+  {
+    id: 'match-05',
+    number: '05',
+    shortName: 'MI vs SRH',
+    teams: [teams[1], teams[4]],
+    date: 'April 11, 2026 · 7:30 PM',
+    venue: 'Wankhede Stadium, Mumbai',
+    prices: { general: 950, premium: 2200, vip: 5500 },
+  },
+]
